@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="mx-auto max-w-2xl px-6 py-24 font-sans">
       {/* centered, compact svg wordmark */}
-      <div className="mx-auto mb-6 w-40 text-foreground">
+      <div className="mx-auto mb-6 w-56 text-foreground">
         <svg
           viewBox="0 0 330 50"
           xmlns="http://www.w3.org/2000/svg"
