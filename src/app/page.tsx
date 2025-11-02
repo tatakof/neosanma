@@ -31,9 +31,9 @@ export default function Home() {
           <rect x="80" y="30" width="30" height="10"></rect>
           {/* s */}
           <rect x="120" y="10" width="30" height="10"></rect>
-          <rect x="120" y="10" width="10" height="15"></rect>
+          <rect x="120" y="15" width="10" height="10"></rect>
           <rect x="120" y="20" width="30" height="10"></rect>
-          <rect x="140" y="25" width="10" height="15"></rect>
+          <rect x="140" y="25" width="10" height="10"></rect>
           <rect x="120" y="30" width="30" height="10"></rect>
           {/* a */}
           <rect x="160" y="10" width="30" height="10"></rect>
