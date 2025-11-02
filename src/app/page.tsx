@@ -8,29 +8,53 @@ export default function Home() {
       {/* centered, compact svg wordmark */}
       <div className="mx-auto mb-6 w-40 text-foreground">
         <svg
-          viewBox="0 0 130 50"
+          viewBox="0 0 330 50"
           xmlns="http://www.w3.org/2000/svg"
           role="img"
           aria-label="neosanma"
           className="h-auto w-full"
           fill="currentColor"
         >
-          {/* t */}
-          <rect x="10" y="0" width="10" height="40"></rect>
-          <rect x="0" y="10" width="30" height="10"></rect>
-          <rect x="10" y="30" width="20" height="10"></rect>
-          {/* i */}
-          <rect x="40" y="0" width="10" height="10"></rect>
-          <rect x="40" y="20" width="10" height="20"></rect>
           {/* n */}
-          <rect x="60" y="10" width="10" height="30"></rect>
-          <rect x="60" y="10" width="20" height="10"></rect>
-          <rect x="80" y="20" width="10" height="20"></rect>
-          {/* y */}
-          <rect x="100" y="10" width="10" height="20"></rect>
-          <rect x="100" y="20" width="30" height="10"></rect>
-          <rect x="100" y="40" width="20" height="10"></rect>
-          <rect x="120" y="10" width="10" height="30"></rect>
+          <rect x="0" y="10" width="10" height="30"></rect>
+          <rect x="0" y="10" width="30" height="10"></rect>
+          <rect x="20" y="20" width="10" height="20"></rect>
+          {/* e */}
+          <rect x="40" y="10" width="10" height="30"></rect>
+          <rect x="40" y="10" width="30" height="10"></rect>
+          <rect x="40" y="23" width="25" height="10"></rect>
+          <rect x="40" y="30" width="30" height="10"></rect>
+          {/* o */}
+          <rect x="80" y="10" width="30" height="10"></rect>
+          <rect x="80" y="10" width="10" height="30"></rect>
+          <rect x="100" y="10" width="10" height="30"></rect>
+          <rect x="80" y="30" width="30" height="10"></rect>
+          {/* s */}
+          <rect x="120" y="10" width="30" height="10"></rect>
+          <rect x="120" y="10" width="10" height="15"></rect>
+          <rect x="120" y="20" width="30" height="10"></rect>
+          <rect x="140" y="25" width="10" height="15"></rect>
+          <rect x="120" y="30" width="30" height="10"></rect>
+          {/* a */}
+          <rect x="160" y="10" width="30" height="10"></rect>
+          <rect x="160" y="10" width="10" height="30"></rect>
+          <rect x="180" y="10" width="10" height="30"></rect>
+          <rect x="160" y="23" width="30" height="10"></rect>
+          {/* n */}
+          <rect x="200" y="10" width="10" height="30"></rect>
+          <rect x="200" y="10" width="30" height="10"></rect>
+          <rect x="220" y="20" width="10" height="20"></rect>
+          {/* m */}
+          <rect x="240" y="10" width="10" height="30"></rect>
+          <rect x="240" y="10" width="20" height="10"></rect>
+          <rect x="260" y="20" width="10" height="20"></rect>
+          <rect x="270" y="10" width="20" height="10"></rect>
+          <rect x="280" y="20" width="10" height="20"></rect>
+          {/* a */}
+          <rect x="300" y="10" width="30" height="10"></rect>
+          <rect x="300" y="10" width="10" height="30"></rect>
+          <rect x="320" y="10" width="10" height="30"></rect>
+          <rect x="300" y="23" width="30" height="10"></rect>
         </svg>
       </div>
       <p className="text-muted-foreground leading-7 lowercase">
