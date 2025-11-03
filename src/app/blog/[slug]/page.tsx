@@ -13,12 +13,12 @@ export default async function PostPage({ params }: { params: { slug: string } })
   if (!post) return notFound();
 
   return (
-    <main className="mx-auto max-w-2xl px-6 py-24 font-sans">
-      <h1 className="text-3xl tracking-tight mb-2 lowercase">{post.meta.title.toLowerCase()}</h1>
-      <p className="text-sm text-muted-foreground mb-8 lowercase">
+    <main className="mx-auto max-w-3xl px-6 py-32 font-sans">
+      <h1 className="text-4xl tracking-tight mb-3 lowercase">{post.meta.title.toLowerCase()}</h1>
+      <p className="text-base text-muted-foreground mb-10 lowercase">
         {new Date(post.meta.date).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" }).toLowerCase()}
       </p>
-      <article className="prose prose-neutral dark:prose-invert prose-p:leading-7 prose-headings:font-normal prose-headings:lowercase prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-a:underline">
+      <article className="prose prose-neutral dark:prose-invert prose-lg prose-p:leading-relaxed prose-headings:font-normal prose-headings:lowercase prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl prose-a:underline">
         {/* biome-ignore lint/security/noDangerouslySetInnerHtml: markdown rendered on server */}
         <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
       </article>

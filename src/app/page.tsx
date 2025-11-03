@@ -4,14 +4,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-2xl px-6 py-24 font-sans">
+    <main className="mx-auto max-w-3xl px-6 py-32 font-sans">
       {/* centered, compact svg wordmark */}
-      <div className="mx-auto mb-6 w-100 text-foreground">
+      <div className="mx-auto mb-8 max-w-2xl text-foreground">
         <svg
           viewBox="0 0 330 50"
           xmlns="http://www.w3.org/2000/svg"
           role="img"
-          aria-label="neosanma"
+          aria-label="main"
           className="h-auto w-full"
           fill="currentColor"
         >
@@ -30,11 +30,11 @@ export default function Home() {
           <rect x="100" y="10" width="10" height="30"></rect>
           <rect x="80" y="30" width="30" height="10"></rect>
           {/* s */}
-          <rect x="120" y="10" width="30" height="10"></rect>
-          <rect x="120" y="15" width="10" height="10"></rect>
-          <rect x="120" y="20" width="30" height="10"></rect>
-          <rect x="140" y="25" width="10" height="10"></rect>
-          <rect x="120" y="30" width="30" height="10"></rect>
+          <rect x="120" y="10" width="30" height="7"></rect>
+          <rect x="120" y="17" width="10" height="6"></rect>
+          <rect x="120" y="23" width="30" height="6"></rect>
+          <rect x="140" y="29" width="10" height="5"></rect>
+          <rect x="120" y="34" width="30" height="6"></rect>
           {/* a */}
           <rect x="160" y="10" width="30" height="10"></rect>
           <rect x="160" y="10" width="10" height="30"></rect>
@@ -57,12 +57,11 @@ export default function Home() {
           <rect x="300" y="23" width="30" height="10"></rect>
         </svg>
       </div>
-      <p className="text-muted-foreground leading-7 lowercase">
-        writing on ai, systems, and latin america's jump into the new technological revolution.
+      <p className="text-lg text-muted-foreground leading-relaxed lowercase">
+        writing on ai, software 2.0, and latin america's jump into the new technological revolution.
       </p>
-      <div className="mt-10 flex items-center gap-6 text-sm lowercase">
+      <div className="mt-12 flex items-center justify-center text-base lowercase">
         <Link href="/blog" className="underline underline-offset-4 hover:no-underline">read the writing</Link>
-        <Link href="/about" className="text-muted-foreground hover:underline underline-offset-4">about</Link>
       </div>
     </main>
   );
